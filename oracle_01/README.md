@@ -44,3 +44,17 @@ WHERE: 행을 선택하는 조건을 기술
 _: 한문자
 %:모든것
 
+-- 연산자 우선순위 
+--1. 산술연산자
+--2. 연결연산자
+--3. 비교연산자
+--4. IS NULL / IS NOT NULL / LIKE / NOT LIKE / IN / NOT IN
+--5. BETWEEN AND / NOT BETWEEN AND
+--6. NOT(논리연자)
+--7. AND
+--8. OR
+
+--J2직급의 급여 200만원 이상받는 직원이거나 J7 직급의 직원의 
+--이름, 급여, 직급 코드 조회
+
+
