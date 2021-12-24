@@ -1,11 +1,11 @@
-/*@ DQL(Data Query Language)
+DQL(Data Query Language)
+
 데이터를 검색 추출하기 위해 사용하는 언어 
 DQL은 DML에 속한언어이기도 하다. 
 데이터조회한 결과를 Result set(행들의 집합)이라고 한다.
 ->0개이상의 행이 포함될수 있고 , 특정기준에 의해 정렬될수 있다. 
-*/
-/*
-@SELECT 기본 작성법
+
+SELECT 기본 작성법
 1. SELECT 컬럼명 FROM 테이블명;
 2. SELECT 컬럼명 FROM 테이블명 WHERE 조건;
 
